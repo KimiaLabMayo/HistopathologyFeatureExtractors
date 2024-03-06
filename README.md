@@ -26,36 +26,65 @@ This code has been used in our works:
 
 This repository gathers most recent histopathology feature extractors. To get embeddings of a specific model, choose one of the following available models:
 **Trained on natural data (images/text):**
+
 1-        "resnet50d"
+
 2-        "densenet121"
+
 3-        "mobilenetv3_large_100_miil_in21k"
+
 4-        "mobilenetv3_rw"
+
 5-        "efficientnet_b0"
+
 6-        "efficientnet_b3"
+
 7-        "efficientnet_b5"
+
 8-        "convnext_base_22k"
+
 9-        "convnext_xlarge_22k"
+
 10-        "vit_base_patch16_224"
+
 11-        "dino_vits16"
+
 12-        "dino_vitb16"
+
 13-        "clip_ViT-B/16"
+
 14-        "clip_ViT-L/14@336px"
+
 15-        "dinov2_vitb14"
 
 **Trained on histopathology data (images/text):**
+
 16-        "PathDino"
+
 17-        "iBOT_ViT_B"
+
 18-        "DinoSSLPathology_16"
+
 19-        "DinoSSLPathology_8" 
+
 20-        "ResNet_Barlow_Twins"
+
 21-        "ResNet_MoCoV2"
+
 22-        "ResNet_SwAV"
+
 23-        "dino_HIPT"
+
 24-        "KimiaNet"
+
 25-        "swav_resnet50"
+
 26-        "PLIP"
+
 27-        "MuDiPath_densenet101"
+
 28-        "MuDiPath_resnet50"
+
 29-        "BiomedCLIP"
 
 **Note:** In our experiments we used "student" of iBOT_ViT_B, however, currently, it is recommended to use "teacher" in the [corresponding repository](https://github.com/owkin/HistoSSLscaling). For more details, please refer to the models' original repositories.
