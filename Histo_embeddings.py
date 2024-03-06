@@ -1,8 +1,5 @@
 import torch
-import timm
-from torchvision import transforms
 from PIL import Image
-import io
 from Histo_feature_extractors import get_feature_extractor
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -36,7 +33,7 @@ def main(image_path, model_names):
 
 if __name__ == "__main__":
     # Example usage
-    image_path = "/mayo_atlas/home/m288756/mayo_ai/img2.png"
+    image_path = "images/img.png"
     model_names = [
         "resnet50d",
         "densenet121",

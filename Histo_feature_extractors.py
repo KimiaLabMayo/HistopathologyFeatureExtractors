@@ -295,7 +295,8 @@ def get_feature_extractor(mdl="resnet50d", headless=True):
         print("PLIP model loaded.")
     elif mdl == 'iBOT_ViT_B':
         weights_path = "/mayo_atlas/home/m288756/mayo_ai/src/modelss/HistoSSLscaling/weights/ibot_vit_base_pancan.pth"
-        model = iBOTViT(architecture="vit_base_pancan", encoder="student", weights_path=weights_path)
+        # model = iBOTViT(architecture="vit_base_pancan", encoder="student", weights_path=weights_path)
+        model = iBOTViT(architecture="vit_base_pancan", encoder="teacher", weights_path=weights_path)
         transform = transforms.Compose([
             transforms.CenterCrop(224),
             transforms.ToTensor(),
