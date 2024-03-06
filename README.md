@@ -25,6 +25,7 @@ This code has been used in our works:
 <img width="1500" src="./images/Activation-Map-PathDino heads.gif">
 
 This repository gathers most recent histopathology feature extractors. To get embeddings of a specific model, choose one of the following available models:
+
 **Trained on natural data (images/text):**
 
 1-        "resnet50d"
