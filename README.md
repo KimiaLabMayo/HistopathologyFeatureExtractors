@@ -9,8 +9,7 @@ This code has been used in our works:
 
 1- [Rotation-Agnostic Image Representation Learning for Digital Pathology](https://KimiaLabMayo.github.io/PathDino-Page/) (CVPR 2024)
 
-2- [Foundation Models for Histopathology — Fanfare or Flair](https://www.sciencedirect.com/science/article/pii/S294976122400014) (Mayo Clinic Proceedings: Digital Health)
-
+2- [Foundation Models for Histopathology — Fanfare or Flair](https://www.sciencedirect.com/science/article/pii/S2949761224000142) (Mayo Clinic Proceedings: Digital Health)
 <!-- omit in toc -->
 ## Contents
 
