@@ -92,7 +92,7 @@ This repository gathers most recent histopathology feature extractors. To get em
 ## PathDino Inference on Histopathology Image 
 **Example: To extract image's embeddings using our model (PathDino):**
 
-```
+```python
 import torch
 from PIL import Image
 from Histo_feature_extractors import get_feature_extractor
