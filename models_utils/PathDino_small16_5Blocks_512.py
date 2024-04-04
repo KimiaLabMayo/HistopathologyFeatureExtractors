@@ -274,7 +274,7 @@ class VisionTransformer(nn.Module):
         return output
 
 
-def get_pathDino_model(weights_path="/mayo_atlas/home/m288756/mayo_ai/output/DinoPath_Vit_small_5blocks_same224Settings/teacher_PathDino_5Blocks_512.pth", **kwargs):
+def get_pathDino_model(weights_path="teacher_PathDino_5Blocks_512.pth", **kwargs):
 
     model = VisionTransformer(img_size=[512], patch_size=16, embed_dim=384, depth=5, num_heads=6, mlp_ratio=4, qkv_bias=True, norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     for p in model.parameters():
