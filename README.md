@@ -159,3 +159,6 @@ python Histo_embeddings.py
 
 **Acknowledgements** 
 Some parts of some models' code are taken from their original repositories. We thank the authors for their great work. 
+
+## Disclaimer
+This code is intended for research puposes only. Any commercial use is prohibited.
