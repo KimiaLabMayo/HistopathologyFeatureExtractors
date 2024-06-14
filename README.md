@@ -135,13 +135,13 @@ python Histo_embeddings.py
 
 ## Citation 
 ```
-@article{alfasly2023rotationagnostic,
-      title={Rotation-Agnostic Image Representation Learning for Digital Pathology}, 
-      author={Saghir Alfasly and Abubakr Shafique and Peyman Nejat and Jibran Khan and Areej Alsaafin and Ghazal Alabtah and H.R. Tizhoosh},
-      year={2023},
-      eprint={2311.08359},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Alfasly_2024_CVPR,
+    title     = {Rotation-Agnostic Image Representation Learning for Digital Pathology},
+    author    = {Alfasly, Saghir and Shafique, Abubakr and Nejat, Peyman and Khan, Jibran and Alsaafin, Areej and Alabtah, Ghazal and Tizhoosh, H.R.},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {11683-11693}
 }
 
 @article{ALFASLY2024165,
